@@ -52,3 +52,8 @@ class Matrix:
     def __str__(self):
         """Рядкове представлення."""
         return '\n'.join([' '.join(map(str, row)) for row in self.data])
+
+
+    def size(self):
+        """Повертає розміри матриці у форматі (рядки, стовпці)."""
+        return (self.rows, self.cols)
