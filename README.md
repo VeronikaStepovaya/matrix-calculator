@@ -1,0 +1,2 @@
+# matrix-calculator
+Калькулятор матриць
